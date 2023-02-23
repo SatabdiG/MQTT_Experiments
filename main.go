@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	broker := "public.messaging.solace.cloud"
+	broker := "broker_address"
 	port := 1883
 
 	opts := mqtt.NewClientOptions()
